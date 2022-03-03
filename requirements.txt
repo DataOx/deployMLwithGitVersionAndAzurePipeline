@@ -1,0 +1,4 @@
+# TODO: add pkg version for each project
+
+numpy
+pandas
