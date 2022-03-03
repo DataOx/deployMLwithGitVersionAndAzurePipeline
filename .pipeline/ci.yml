@@ -51,6 +51,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
+    # login container registry
       - task: AzureCLI@2
         inputs:
           azureSubscription: "***"  # service connection name
@@ -65,8 +66,8 @@ stages:
         name: GitVersion
         displayName: GitVersion 
       - script: |
-          docker build -t $(CONTAINER_REGISTRY_INSTANCE)/vicc_algorithm:$(GitVersion.value) .   
-        displayName: Build VICC algorithm image
+          docker build -t $(CONTAINER_REGISTRY_INSTANCE)/algorithmA:$(GitVersion.value) .   
+        displayName: Build image
       - script: |
-          docker push  $(CONTAINER_REGISTRY_INSTANCE)/vicc_algorithm:$(GitVersion.value) 
-        displayName: push VICC algo image
+          docker push  $(CONTAINER_REGISTRY_INSTANCE)/algorithmA:$(GitVersion.value) 
+        displayName: push image to registry

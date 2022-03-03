@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+unit-testresults.*
 
 # linting
 lint-testresults.*

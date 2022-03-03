@@ -1,3 +1,4 @@
+#%%
 import numpy as np
 import pandas as pd
 
@@ -15,6 +16,6 @@ def simple_program():
     z = add_int(x, y)
     logger.info(f'output is {z}')
 
-
+#simple_program()
 if __name__ == "__main__":
     simple_program()
