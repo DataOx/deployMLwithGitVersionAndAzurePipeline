@@ -51,9 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 unit-testresults.*
-
+test-output.xml
 # linting
-lint-testresults.*
+lint-testresults.xml
 
 # Translations
 *.mo

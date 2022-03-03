@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.204" timestamp="2022-03-03T11:42:41.679088" hostname="AUTO-PF2LRRD7"><testcase classname="test.test_pkg1" name="test_add_int" time="0.002" /></testsuite></testsuites>
