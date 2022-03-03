@@ -3,5 +3,7 @@
 numpy
 pandas
 
-pytest
-pycove
+flake8
+pytest 
+pytest-azurepipelines
+pytest-cov
