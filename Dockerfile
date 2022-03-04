@@ -13,4 +13,4 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 #run the python program
-CMD ["python", "./hello_algo.py"]
+CMD ["python", "-m src.hello_algo"]
