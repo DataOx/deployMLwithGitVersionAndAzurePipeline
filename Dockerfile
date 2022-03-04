@@ -12,4 +12,5 @@ COPY requirements.txt .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
+#run the python program
 CMD ["python", "./hello_algo.py"]
