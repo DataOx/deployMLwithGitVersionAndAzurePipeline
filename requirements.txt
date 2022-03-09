@@ -3,6 +3,11 @@
 numpy
 pandas
 
+# pkg needed for fastapi
+uvicorn
+fastapi
+
+
 flake8
 pytest 
 pytest-azurepipelines
